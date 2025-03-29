@@ -1,0 +1,28 @@
+.custom-nav{
+background-color:#d7e3ff;
+display: flex;
+align-items: center;
+padding: 0 16px; /* Add some padding */
+
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 1.2px; /* Space between logo and text */
+}
+
+.nav-logo-image {
+  width: 50px;
+  height: 50px;
+  object-fit: contain; /* Ensures the image maintains its aspect ratio */
+}
+
+.nav-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.example-spacer {
+  flex-grow: 1;
+}

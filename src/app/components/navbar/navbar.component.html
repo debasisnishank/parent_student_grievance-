@@ -1,1 +1,18 @@
-<p>navbar works!</p>
+<mat-toolbar class="custom-nav">
+  <div class="nav-logo">
+    <button mat-icon-button class="example-icon">
+      <mat-icon>
+        <img src="assets/icons/grievance.svg"  alt="grievance" />
+      </mat-icon>
+    </button>
+    <span>StudentSpeak</span>
+  </div>
+  <span class="example-spacer"></span>
+  <div class="nav-actions">
+
+    <a routerLink="/login" mat-button>Login</a>
+
+    <a routerLink="/register" mat-button color="accent">Register</a>
+
+  </div>
+</mat-toolbar>
